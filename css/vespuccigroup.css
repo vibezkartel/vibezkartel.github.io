@@ -102,7 +102,9 @@
 }
 
 .tab-link-2.w--current {
-  border-bottom: 2px solid #156a2e;
+  border-color: #f25d2e;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
   background-color: transparent;
 }
 
@@ -256,7 +258,7 @@
   display: flex;
   width: 250px;
   height: 45px;
-  margin-top: 50px;
+  margin-top: 15px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -266,7 +268,7 @@
   -ms-flex-align: center;
   align-items: center;
   border-radius: 4px;
-  background-color: #156a2e;
+  background-color: #f25d2e;
   text-decoration: none;
 }
 
@@ -282,6 +284,13 @@
 
 .link-block {
   text-decoration: none;
+}
+
+.text-block-10 {
+  margin-top: 50px;
+  font-family: Lato, sans-serif;
+  color: hsla(0, 0%, 100%, .55);
+  font-weight: 300;
 }
 
 html.w-mod-js *[data-ix="pucci"] {
@@ -378,6 +387,10 @@ html.w-mod-js *[data-ix="red-12"] {
   }
   .tabs {
     overflow: hidden;
+  }
+  .text-block-10 {
+    margin-right: 5vw;
+    margin-left: 5vw;
   }
 }
 
