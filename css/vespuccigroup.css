@@ -65,7 +65,7 @@
   color: #fff;
   font-size: 24px;
   line-height: 39px;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .contact {
@@ -259,6 +259,7 @@
   width: 250px;
   height: 45px;
   margin-top: 15px;
+  margin-bottom: 100px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
